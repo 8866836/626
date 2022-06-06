@@ -1,0 +1,407 @@
+{
+  "wallpaper": "",
+  "spider": "https://wabc.ml/xm.jar",
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "redirect",
+          "urls": [
+            "proxy://do=tvfix&type=list"
+          ]
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "key": "csp_GitCafe",
+      "name": "🦊 小纸条",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "ملاحظة"
+    },
+    //"https://gitcafe.net/alipaper/home.json"
+    // https://colamint.coding.net/p/colacat/d/ColaCat/git/raw/master/gitcafe.json
+    {
+      "key": "csp_NaNa",
+      "name": "👒 七七",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "سبعة وسبعة"
+    },
+    {
+      "key": "csp_CZSPP",
+      "name": "🚬 厂长资源",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "موارد مدير المصنع"
+    },//https://czspp.com/
+
+    // {
+      // "key": "csp_Buka",
+      // "name": "🧼 真不卡",
+      // "type": 3,
+      // "api": "csp_ColaCat",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 0,
+      // "ext": "حقا ليس عالقا"
+    // },
+    {
+      "key": "csp_Auete",
+      "name": "🧿 Auete",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "أويتي"
+    },//https://auete.com/
+    
+    {
+      "key": "csp_DiDuan",
+      "name": "🌀 低端影院",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "السينما والتلفزيون الرديئة"
+    },//https://ddrk.me/
+    {
+      "key": "csp_360",
+      "name": "🎾 360",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "ثلاثة مائة وستون"
+    },//https://api.web.360kan.com/v1/rank?cat=1
+    {
+      "key": "csp_Kumao",
+      "name": "🐱 酷猫",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "قط رائع"
+    },
+    //http://feigua2021.oss-cn-beijing.aliyuncs.com/static/config/video/1.json
+    // http://video-static.czjsbo.com/static/1/config/lib-new.json
+    // http://video-static.czjsbo.com/static/1/index/cloumn/1.json
+    {
+      "key": "csp_AliPanSou",
+      "name": "🐱 喵狸盘搜",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "مواء الراكون"
+    },//http://worldtimeapi.org/api/timezone/Asia/Shanghai
+    {
+      "key": "csp_Concert",
+      "name": "🎤 演唱会",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "حفلة موسيقية"
+    },
+    //https://colamint.coding.net/p/colacat/d/ColaCat/git/raw/master/singers.json?download=true
+    // https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E6%BC%94%E5%94%B1%E4%BC%9A&duration=4&page=1
+    {
+      "key": "csp_Opera",
+      "name": "🏮戏曲",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "أوبرا"
+    },//https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E6%88%8F%E6%9B%B2&duration=4&page=1
+    {
+      "key": "csp_Animal",
+      "name": "🐘 动物世界",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "عالم الحيوان"
+    },//https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C&duration=4&page=1
+    // {
+      // "key": "csp_FakeWindow",
+      // "name": "🪟 假窗·氛围·白噪声",
+      // "type": 3,
+      // "api": "csp_ColaCat",
+      // "searchable": 0,
+      // "quickSearch": 0,
+      // "filterable": 0,
+      // "ext": "نافذة كاذبة"
+    // },//https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E7%AA%97+%E7%99%BD%E5%99%AA%E9%9F%B3&duration=4&page=1
+    {
+      "key": "csp_Live",
+      "name": "📺 首页直播模式",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "تعيين البث المباشر كصفحة رئيسية"
+    },
+    {
+      "key": "push_agent",
+      "name": "🍭 推送模式",
+      "type": 3,
+      "api": "csp_ColaCat",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "علي"
+    }//http://worldtimeapi.org/api/timezone/Asia/Shanghai
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "Demo"
+    }
+  ],
+  "flags": [],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+"mimg.0c1q0l.cn",
+"www.googletagmanager.com",
+"www.google-analytics.com",
+"mc.usihnbcq.cn",
+"mg.g1mm3d.cn",
+"mscs.svaeuzh.cn",
+"cnzz.hhttm.top",
+"tp.vinuxhome.com",
+"cnzz.mmstat.com",
+"www.baihuillq.com",
+"s23.cnzz.com",
+"z3.cnzz.com",
+"c.cnzz.com",
+"stj.v1vo.top",
+"z12.cnzz.com",
+"img.mosflower.cn",
+"tips.gamevvip.com",
+"ehwe.yhdtns.com",
+"xdn.cqqc3.com",
+"www.jixunkyy.cn",
+"sp.chemacid.cn",
+"hm.baidu.com",
+"s9.cnzz.com",
+"z6.cnzz.com",
+"um.cavuc.com",
+"mav.mavuz.com",
+"wofwk.aoidf3.com",
+"z5.cnzz.com",
+"xc.hubeijieshikj.cn",
+"tj.tianwenhu.com",
+"xg.gars57.cn",
+"k.jinxiuzhilv.com",
+"cdn.bootcss.com",
+"ppl.xunzhuo123.com",
+"xomk.jiangjunmh.top",
+"img.xunzhuo123.com",
+"z1.cnzz.com",
+"s13.cnzz.com",
+"xg.huataisangao.cn",
+"z7.cnzz.com",
+"xg.huataisangao.cn",
+"z2.cnzz.com",
+"s96.cnzz.com",
+"q11.cnzz.com",
+"thy.dacedsfa.cn",
+"xg.whsbpw.cn",
+"s19.cnzz.com",
+"z8.cnzz.com",
+"s4.cnzz.com",
+"f5w.as12df.top",
+"ae01.alicdn.com",
+"www.92424.cn",
+"k.wudejia.com",
+"vivovip.mmszxc.top",
+"qiu.xixiqiu.com",
+"cdnjs.hnfenxun.com",
+"cms.qdwght.com"
+]
+}
